@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import axios from "axios";
 
@@ -44,6 +44,7 @@ export default function App() {
         <a
           href="https://github.com/kam-ilab/weather-react-appp"
           target="_blank"
+          rel="noreferrer"
         >
           open-sourced on GitHub
         </a>
