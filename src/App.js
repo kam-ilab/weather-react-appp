@@ -20,9 +20,7 @@ export default function App() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    //have access to the city;
-    //make an API call;
-    //update the weather UI
+
     let apiKey = "9cb72bec958f8fb02391985ed7b219d2";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(displayWeather);
